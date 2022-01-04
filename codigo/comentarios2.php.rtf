@@ -1,0 +1,49 @@
+{\rtf1\ansi\deff0\deftab480
+
+{\fonttbl
+{\f000 Courier New;}
+{\f001 Courier New;}
+{\f002 Courier New;}
+{\f003 Courier New;}
+{\f004 Courier New;}
+{\f005 Courier New;}
+{\f006 Courier New;}
+{\f007 Courier New;}
+{\f008 Courier New;}
+}
+
+{\colortbl
+\red000\green000\blue000;
+\red255\green255\blue255;
+\red255\green000\blue000;
+\red253\green248\blue227;
+\red000\green000\blue000;
+\red255\green255\blue255;
+\red000\green000\blue000;
+\red254\green252\blue245;
+\red128\green128\blue128;
+\red254\green252\blue245;
+\red128\green128\blue128;
+\red254\green252\blue245;
+\red000\green000\blue255;
+\red254\green252\blue245;
+\red000\green000\blue128;
+\red254\green252\blue245;
+\red128\green000\blue255;
+\red254\green252\blue245;
+}
+
+\f0\fs20\cb5\cf4 \highlight3\cf2 <?php\highlight7\cf6 \par
+\tab \highlight13\cf12\b require\highlight17\cf16\b0 (\highlight9\cf8 "conectar2.php"\highlight17\cf16 );\highlight7\cf6 \par
+\tab \highlight15\cf14 $conexion\highlight17\cf16 =\highlight13\cf12\b mysqli_connect\highlight17\cf16\b0 (\highlight15\cf14 $db_host\highlight17\cf16 ,\highlight15\cf14 $db_usuario\highlight17\cf16 ,\highlight15\cf14 $db_contrasena\highlight17\cf16 ,\highlight15\cf14 $db_nombre\highlight17\cf16 );\highlight7\cf6 \par
+\tab \highlight15\cf14 $consulta\highlight17\cf16 =\highlight9\cf8 "SELECT * FROM comentarios"\highlight17\cf16 ;\highlight7\cf6 \par
+\tab \highlight15\cf14 $resultados\highlight17\cf16 =\highlight13\cf12\b mysqli_query\highlight17\cf16\b0 (\highlight15\cf14 $conexion\highlight17\cf16 ,\highlight15\cf14 $consulta\highlight17\cf16 );\highlight7\cf6 \par
+\tab \highlight13\cf12\b if\highlight17\cf16\b0 (\highlight15\cf14 $resultados\highlight17\cf16 )\{\highlight7\cf6 \par
+\tab \tab \highlight13\cf12\b while\highlight17\cf16\b0 (\highlight15\cf14 $datos\highlight17\cf16 =\highlight13\cf12\b mysqli_fetch_assoc\highlight17\cf16\b0 (\highlight15\cf14 $resultados\highlight17\cf16 ))\{\highlight7\cf6 \par
+\tab \tab \tab \highlight13\cf12\b echo\highlight7\cf6\b0  \highlight15\cf14 $datos\highlight17\cf16 [\highlight11\cf10 'nombre'\highlight17\cf16 ].\highlight9\cf8 "<br/>"\highlight17\cf16 ;\highlight7\cf6 \par
+\tab \tab \tab \highlight13\cf12\b echo\highlight7\cf6\b0  \highlight15\cf14 $datos\highlight17\cf16 [\highlight11\cf10 'comentario'\highlight17\cf16 ].\highlight9\cf8 "<br/>"\highlight17\cf16 .\highlight9\cf8 "<br/>"\highlight17\cf16 ;\highlight7\cf6 \par
+\tab \tab \tab \highlight13\cf12\b echo\highlight7\cf6\b0  \highlight9\cf8 "<hr>"\highlight17\cf16 ;\highlight7\cf6 \par
+\tab \tab \highlight17\cf16 \}\highlight7\cf6 \par
+\tab \highlight17\cf16 \}\highlight7\cf6 \par
+\highlight3\cf2 ?>\highlight1\cf0\b \par
+}

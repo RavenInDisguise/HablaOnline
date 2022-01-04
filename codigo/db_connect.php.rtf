@@ -1,0 +1,45 @@
+{\rtf1\ansi\deff0\deftab480
+
+{\fonttbl
+{\f000 Courier New;}
+{\f001 Courier New;}
+{\f002 Courier New;}
+{\f003 Courier New;}
+{\f004 Courier New;}
+{\f005 Courier New;}
+{\f006 Courier New;}
+}
+
+{\colortbl
+\red255\green000\blue000;
+\red253\green248\blue227;
+\red000\green000\blue000;
+\red255\green255\blue255;
+\red000\green000\blue000;
+\red254\green252\blue245;
+\red128\green128\blue128;
+\red254\green252\blue245;
+\red000\green000\blue255;
+\red254\green252\blue245;
+\red000\green000\blue128;
+\red254\green252\blue245;
+\red128\green000\blue255;
+\red254\green252\blue245;
+}
+
+\f0\fs20\cb3\cf2 \highlight1\cf0 <?php\highlight5\cf4 \par
+    \highlight9\cf8\b function\highlight5\cf4\b0  conexion\highlight13\cf12 ()\{\highlight5\cf4 \par
+        \highlight11\cf10 $db_host\highlight5\cf4  \highlight13\cf12 =\highlight5\cf4  \highlight7\cf6 "localhost"\highlight13\cf12 ;\highlight5\cf4 \par
+        \highlight11\cf10 $db_name\highlight5\cf4  \highlight13\cf12 =\highlight5\cf4  \highlight7\cf6 "base_expo"\highlight13\cf12 ;\highlight5\cf4 \par
+        \highlight11\cf10 $db_user\highlight5\cf4  \highlight13\cf12 =\highlight5\cf4  \highlight7\cf6 "root"\highlight13\cf12 ;\highlight5\cf4 \par
+        \highlight11\cf10 $db_pass\highlight5\cf4  \highlight13\cf12 =\highlight5\cf4  \highlight7\cf6 ""\highlight13\cf12 ;\highlight5\cf4 \par
+    \par
+        \highlight11\cf10 $connect\highlight5\cf4  \highlight13\cf12 =\highlight5\cf4  \highlight9\cf8\b mysqli_connect\highlight13\cf12\b0 (\highlight11\cf10 $db_host\highlight13\cf12 ,\highlight11\cf10 $db_user\highlight13\cf12 ,\highlight11\cf10 $db_pass\highlight13\cf12 ,\highlight11\cf10 $db_name\highlight13\cf12 );\highlight5\cf4 \par
+        \highlight9\cf8\b return\highlight5\cf4\b0  \highlight11\cf10 $connect\highlight13\cf12 ;\highlight5\cf4 \par
+    \highlight13\cf12 \}\highlight5\cf4 \par
+\par
+    \highlight9\cf8\b function\highlight5\cf4\b0  query\highlight13\cf12 (\highlight11\cf10 $sql\highlight13\cf12 )\{\highlight5\cf4 \par
+        \highlight11\cf10 $res\highlight5\cf4  \highlight13\cf12 =\highlight5\cf4  \highlight9\cf8\b mysqli_query\highlight13\cf12\b0 (\highlight5\cf4 conexion\highlight13\cf12 (),\highlight11\cf10 $sql\highlight13\cf12 );\highlight5\cf4 \par
+        \highlight9\cf8\b return\highlight5\cf4\b0  \highlight9\cf8\b mysqli_fetch_array\highlight13\cf12\b0 (\highlight5\cf4  \highlight11\cf10 $res\highlight5\cf4  \highlight13\cf12 );\highlight5\cf4 \par
+    \highlight13\cf12 \}\highlight5\cf4 \par
+\highlight1\cf0 ?>}

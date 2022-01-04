@@ -1,0 +1,73 @@
+{\rtf1\ansi\deff0\deftab480
+
+{\fonttbl
+{\f000 Courier New;}
+{\f001 Courier New;}
+{\f002 Courier New;}
+{\f003 Courier New;}
+{\f004 Courier New;}
+{\f005 Courier New;}
+{\f006 Courier New;}
+{\f007 Courier New;}
+{\f008 Courier New;}
+}
+
+{\colortbl
+\red000\green000\blue000;
+\red255\green255\blue255;
+\red255\green128\blue000;
+\red255\green255\blue255;
+\red000\green000\blue255;
+\red255\green255\blue255;
+\red128\green128\blue128;
+\red255\green255\blue255;
+\red000\green000\blue128;
+\red255\green255\blue255;
+\red000\green000\blue000;
+\red255\green255\blue255;
+\red128\green000\blue255;
+\red255\green255\blue255;
+\red128\green064\blue000;
+\red255\green255\blue255;
+\red000\green000\blue000;
+\red255\green255\blue255;
+}
+
+\f0\fs20\cb17\cf16 \highlight5\cf4\b var\highlight1\cf0\b0  \highlight11\cf10 fecha_ini\highlight1\cf0  \highlight9\cf8\b =\highlight1\cf0\b0  \highlight5\cf4\b null\highlight9\cf8 ;\highlight1\cf0\b0 \par
+\highlight5\cf4\b var\highlight1\cf0\b0  \highlight11\cf10 fecha_fin\highlight1\cf0  \highlight9\cf8\b =\highlight1\cf0\b0  \highlight5\cf4\b null\highlight9\cf8 ;\highlight1\cf0\b0 \par
+\highlight5\cf4\b var\highlight1\cf0\b0  \highlight11\cf10 typeofgame\highlight1\cf0  \highlight9\cf8\b =\highlight1\cf0\b0  \highlight3\cf2 3\highlight9\cf8\b ;\highlight1\cf0\b0 \par
+\par
+\highlight5\cf4\b var\highlight1\cf0\b0  \highlight11\cf10 pts_b\highlight1\cf0  \highlight9\cf8\b =\highlight1\cf0\b0  \highlight3\cf2 1000\highlight9\cf8\b ;\highlight1\cf0\b0 \par
+\par
+\par
+\highlight5\cf4\b function\highlight1\cf0\b0  \highlight11\cf10 bien\highlight9\cf8\b ()\{\highlight1\cf0\b0 \par
+    \highlight15\cf14\b alert\highlight9\cf8 (\highlight7\cf6\b0 "Correcto!"\highlight9\cf8\b );\highlight1\cf0\b0 \par
+\highlight9\cf8\b \}\highlight1\cf0\b0 \par
+\highlight5\cf4\b function\highlight1\cf0\b0  \highlight11\cf10 mal\highlight9\cf8\b ()\{\highlight1\cf0\b0 \par
+    \highlight15\cf14\b alert\highlight9\cf8 (\highlight7\cf6\b0 "Intentalo de nuevo"\highlight9\cf8\b );\highlight1\cf0\b0 \par
+\highlight9\cf8\b \}\highlight1\cf0\b0 \par
+\par
+\highlight5\cf4\b function\highlight1\cf0\b0  \highlight11\cf10 ganador\highlight9\cf8\b ()\{\highlight1\cf0\b0 \par
+    \highlight11\cf10 fecha_fin\highlight1\cf0  \highlight9\cf8\b =\highlight1\cf0\b0  \highlight5\cf4\b new\highlight1\cf0\b0  \highlight13\cf12 Date\highlight9\cf8\b ();\highlight1\cf0\b0 \par
+\tab \highlight5\cf4\b var\highlight1\cf0\b0  \highlight11\cf10 dif\highlight1\cf0  \highlight9\cf8\b =\highlight1\cf0\b0  \highlight11\cf10 fecha_fin\highlight9\cf8\b .\highlight11\cf10\b0 getTime\highlight9\cf8\b ()\highlight1\cf0\b0  \highlight9\cf8\b -\highlight1\cf0\b0  \highlight11\cf10 fecha_ini\highlight9\cf8\b .\highlight11\cf10\b0 getTime\highlight9\cf8\b ();\highlight1\cf0\b0 \par
+\tab \highlight5\cf4\b var\highlight1\cf0\b0  \highlight11\cf10 Segundos_de_T1_a_T2\highlight1\cf0  \highlight9\cf8\b =\highlight1\cf0\b0  \highlight11\cf10 dif\highlight1\cf0  \highlight9\cf8\b /\highlight1\cf0\b0  \highlight3\cf2 1000\highlight9\cf8\b ;\highlight1\cf0\b0 \par
+\tab \highlight5\cf4\b var\highlight1\cf0\b0  \highlight11\cf10 Segundos_entre_fechas\highlight1\cf0  \highlight9\cf8\b =\highlight1\cf0\b0  \highlight13\cf12 Math\highlight9\cf8\b .\highlight11\cf10\b0 abs\highlight9\cf8\b (\highlight11\cf10\b0 Segundos_de_T1_a_T2\highlight9\cf8\b );\highlight1\cf0\b0 \par
+\tab \highlight5\cf4\b if\highlight9\cf8 (\highlight11\cf10\b0 Segundos_entre_fechas\highlight1\cf0  \highlight9\cf8\b ==\highlight1\cf0\b0  \highlight3\cf2 0\highlight9\cf8\b )\{\highlight1\cf0\b0 \par
+\tab \tab \highlight11\cf10 Segundos_entre_fechas\highlight1\cf0  \highlight9\cf8\b =\highlight1\cf0\b0  \highlight11\cf10 pts_b\highlight9\cf8\b ;\highlight1\cf0\b0 \par
+\tab \highlight9\cf8\b \}\highlight1\cf0\b0 \par
+\tab \highlight5\cf4\b var\highlight1\cf0\b0  \highlight11\cf10 puntos\highlight1\cf0  \highlight9\cf8\b =\highlight1\cf0\b0  \highlight11\cf10 pts_b\highlight1\cf0  \highlight9\cf8\b /\highlight1\cf0\b0  \highlight11\cf10 Segundos_entre_fechas\highlight9\cf8\b ;\highlight1\cf0\b0 \par
+\tab \highlight11\cf10 puntos\highlight1\cf0  \highlight9\cf8\b =\highlight1\cf0\b0  \highlight13\cf12 Math\highlight9\cf8\b .\highlight11\cf10\b0 round\highlight9\cf8\b (\highlight11\cf10\b0 puntos\highlight9\cf8\b );\highlight1\cf0\b0 \par
+\tab \highlight11\cf10 $\highlight9\cf8\b .\highlight11\cf10\b0 post\highlight9\cf8\b (\highlight1\cf0\b0  \highlight7\cf6 "function/send_pts.php"\highlight9\cf8\b ,\highlight1\cf0\b0  \highlight9\cf8\b \{\highlight1\cf0\b0  \highlight11\cf10 puntos\highlight9\cf8\b :\highlight1\cf0\b0  \highlight11\cf10 puntos\highlight9\cf8\b ,\highlight1\cf0\b0  \highlight11\cf10 type\highlight9\cf8\b :\highlight1\cf0\b0  \highlight11\cf10 typeofgame\highlight1\cf0  \highlight9\cf8\b \})\highlight1\cf0\b0 \par
+\tab \tab   \highlight9\cf8\b .\highlight11\cf10\b0 done\highlight9\cf8\b (\highlight5\cf4 function\highlight9\cf8 (\highlight1\cf0\b0  \highlight11\cf10 data\highlight1\cf0  \highlight9\cf8\b )\highlight1\cf0\b0  \highlight9\cf8\b \{\highlight1\cf0\b0 \par
+\tab \tab \tab   \highlight5\cf4\b if\highlight9\cf8 (\highlight11\cf10\b0 data\highlight1\cf0  \highlight9\cf8\b ==\highlight1\cf0\b0  \highlight7\cf6 "1"\highlight9\cf8\b )\{\highlight1\cf0\b0 \par
+\tab \tab \tab \tab \highlight15\cf14\b alert\highlight9\cf8 (\highlight7\cf6\b0 "\u161?Lo has hecho bien! El juego ha terminado"\highlight9\cf8\b );\highlight1\cf0\b0 \par
+\tab \tab \tab \tab \highlight11\cf10 win\highlight9\cf8\b .\highlight11\cf10\b0 play\highlight9\cf8\b ();\highlight1\cf0\b0 \par
+\tab \tab \tab   \highlight9\cf8\b \}\highlight5\cf4 else\highlight1\cf0\b0 \par
+\tab \tab \tab \tab   \highlight15\cf14\b alert\highlight9\cf8 (\highlight7\cf6\b0 "Hubo un error al enviar los puntos"\highlight9\cf8\b );\highlight1\cf0\b0 \par
+\tab   \highlight9\cf8\b \});\highlight1\cf0\b0 \par
+\highlight9\cf8\b \}\highlight1\cf0\b0 \par
+\par
+\par
+\highlight11\cf10 $\highlight9\cf8\b (\highlight1\cf0\b0  \highlight15\cf14\b document\highlight1\cf0\b0  \highlight9\cf8\b ).\highlight11\cf10\b0 ready\highlight9\cf8\b (\highlight1\cf0\b0  \highlight5\cf4\b function\highlight9\cf8 (\highlight1\cf0\b0  \highlight11\cf10 e\highlight1\cf0  \highlight9\cf8\b )\{\highlight1\cf0\b0 \par
+\tab \highlight11\cf10 fecha_ini\highlight1\cf0  \highlight9\cf8\b =\highlight1\cf0\b0  \highlight5\cf4\b new\highlight1\cf0\b0  \highlight13\cf12 Date\highlight9\cf8\b ();\highlight1\cf0\b0 \par
+\highlight9\cf8\b \}\highlight1\cf0\b0  \highlight9\cf8\b );}

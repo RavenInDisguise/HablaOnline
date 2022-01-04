@@ -1,0 +1,106 @@
+{\rtf1\ansi\deff0\deftab480
+
+{\fonttbl
+{\f000 Courier New;}
+{\f001 Courier New;}
+{\f002 Courier New;}
+{\f003 Courier New;}
+{\f004 Courier New;}
+{\f005 Courier New;}
+{\f006 Courier New;}
+{\f007 Courier New;}
+{\f008 Courier New;}
+{\f009 Courier New;}
+}
+
+{\colortbl
+\red255\green000\blue000;
+\red253\green248\blue227;
+\red000\green000\blue000;
+\red255\green255\blue255;
+\red000\green000\blue000;
+\red254\green252\blue245;
+\red128\green128\blue128;
+\red254\green252\blue245;
+\red000\green000\blue255;
+\red254\green252\blue245;
+\red255\green128\blue000;
+\red254\green252\blue245;
+\red000\green000\blue128;
+\red254\green252\blue245;
+\red000\green128\blue000;
+\red254\green252\blue245;
+\red128\green128\blue128;
+\red254\green252\blue245;
+\red128\green000\blue255;
+\red254\green252\blue245;
+}
+
+\f0\fs20\cb3\cf2 \highlight1\cf0 <?php\highlight5\cf4 \par
+    \highlight9\cf8\b DEFINE\highlight19\cf18\b0 (\highlight7\cf6 "SESSION_NAME"\highlight19\cf18 ,\highlight7\cf6 "validado_en_HablaOnline"\highlight19\cf18 );\highlight5\cf4 \par
+    \highlight9\cf8\b function\highlight5\cf4\b0  compare\highlight19\cf18 (\highlight13\cf12 $mail\highlight19\cf18 ,\highlight13\cf12 $pass\highlight19\cf18 )\{\highlight5\cf4 \par
+        \highlight13\cf12 $compare\highlight5\cf4  \highlight19\cf18 =\highlight5\cf4  \highlight7\cf6 "SELECT * FROM users WHERE email='\highlight17\cf16\b $mail\highlight7\cf6\b0 ' AND password=MD5('\highlight17\cf16\b $pass\highlight7\cf6\b0 ')"\highlight19\cf18 ;\highlight5\cf4 \par
+        \highlight13\cf12 $res\highlight5\cf4  \highlight19\cf18 =\highlight5\cf4  query\highlight19\cf18 (\highlight13\cf12 $compare\highlight19\cf18 );\highlight5\cf4 \par
+        \highlight9\cf8\b if\highlight19\cf18\b0 (\highlight13\cf12 $res\highlight5\cf4  \highlight19\cf18 ==\highlight5\cf4  \highlight9\cf8\b null\highlight19\cf18\b0 )\{\highlight5\cf4 \par
+            \highlight9\cf8\b return\highlight5\cf4\b0  \highlight9\cf8\b false\highlight19\cf18\b0 ;\highlight5\cf4 \par
+        \highlight19\cf18 \}\highlight5\cf4 \par
+        \highlight9\cf8\b else\highlight19\cf18\b0 \{\highlight5\cf4 \par
+            gen_session\highlight19\cf18 (\highlight13\cf12 $res\highlight19\cf18 [\highlight11\cf10 0\highlight19\cf18 ],\highlight13\cf12 $res\highlight19\cf18 [\highlight11\cf10 2\highlight19\cf18 ]);\highlight5\cf4 \par
+            \highlight9\cf8\b return\highlight5\cf4\b0  \highlight9\cf8\b true\highlight19\cf18\b0 ;\highlight5\cf4 \par
+        \highlight19\cf18 \}\highlight5\cf4 \par
+    \highlight19\cf18 \}\highlight5\cf4 \par
+\par
+    \highlight9\cf8\b function\highlight5\cf4\b0  gen_session\highlight19\cf18 (\highlight13\cf12 $id\highlight19\cf18 ,\highlight13\cf12 $user\highlight19\cf18 )\{\highlight5\cf4 \par
+        @\highlight9\cf8\b session_start\highlight19\cf18\b0 ();\highlight5\cf4 \par
+        \highlight13\cf12 $_SESSION\highlight19\cf18 [\highlight9\cf8\b SESSION_NAME\highlight19\cf18\b0 ]\highlight5\cf4  \highlight19\cf18 =\highlight5\cf4  \highlight19\cf18 [\highlight7\cf6 "id"\highlight19\cf18 =>\highlight13\cf12 $id\highlight19\cf18 ,\highlight7\cf6 "user"\highlight19\cf18 =>\highlight13\cf12 $user\highlight19\cf18 ];\highlight5\cf4 \par
+    \highlight19\cf18 \}\highlight5\cf4 \par
+\par
+    \highlight9\cf8\b function\highlight5\cf4\b0  session_verify\highlight19\cf18 ()\{\highlight5\cf4 \par
+        @\highlight9\cf8\b session_start\highlight19\cf18\b0 ();\highlight5\cf4 \par
+        \highlight9\cf8\b if\highlight19\cf18\b0 (\highlight9\cf8\b isset\highlight19\cf18\b0 (\highlight13\cf12 $_SESSION\highlight19\cf18 [\highlight9\cf8\b SESSION_NAME\highlight19\cf18\b0 ]))\{\highlight5\cf4 \par
+            \highlight9\cf8\b return\highlight5\cf4\b0  \highlight13\cf12 $_SESSION\highlight19\cf18 [\highlight9\cf8\b SESSION_NAME\highlight19\cf18\b0 ];\highlight5\cf4 \par
+        \highlight19\cf18 \}\highlight5\cf4 \par
+        \highlight9\cf8\b else\highlight19\cf18\b0 \{\highlight5\cf4 \par
+            \highlight9\cf8\b return\highlight5\cf4\b0  \highlight9\cf8\b false\highlight19\cf18\b0 ;\highlight5\cf4 \par
+        \highlight19\cf18 \}\highlight5\cf4 \par
+    \highlight19\cf18 \}\highlight5\cf4 \par
+\par
+    \highlight9\cf8\b function\highlight5\cf4\b0  logout\highlight19\cf18 ()\{\highlight5\cf4 \par
+        @\highlight9\cf8\b session_start\highlight19\cf18\b0 ();\highlight5\cf4 \par
+        \highlight9\cf8\b unset\highlight19\cf18\b0 (\highlight13\cf12 $_SESSION\highlight19\cf18 [\highlight9\cf8\b SESSION_NAME\highlight19\cf18\b0 ]);\highlight5\cf4 \par
+    \highlight19\cf18 \}\highlight5\cf4 \par
+\par
+    \highlight15\cf14 /*\par
+    function registrar($mail,$user,$pass)\{\par
+        $registro = "INSERT INTO `users` (`id`, `email`, `username`, `password`) VALUES (NULL, '$mail', '$user', MD5('$pass')";\par
+        $res_re = query($registro);\par
+        var_dump($res_re);\par
+    \}\par
+    */\highlight5\cf4 \par
+\par
+    \highlight9\cf8\b if\highlight19\cf18\b0 (\highlight9\cf8\b isset\highlight19\cf18\b0 (\highlight13\cf12 $_GET\highlight19\cf18 [\highlight7\cf6 "iniciando"\highlight19\cf18 ]))\{\highlight5\cf4 \par
+        \highlight13\cf12 $ini\highlight5\cf4  \highlight19\cf18 =\highlight5\cf4  compare\highlight19\cf18 (\highlight13\cf12 $_POST\highlight19\cf18 [\highlight7\cf6 "mail"\highlight19\cf18 ],\highlight13\cf12 $_POST\highlight19\cf18 [\highlight7\cf6 "pwd"\highlight19\cf18 ]);\highlight5\cf4 \par
+        \highlight9\cf8\b if\highlight19\cf18\b0 (\highlight13\cf12 $ini\highlight19\cf18 )\{\highlight5\cf4 \par
+            \highlight9\cf8\b header\highlight19\cf18\b0 (\highlight7\cf6 "Location: ?success"\highlight19\cf18 );\highlight5\cf4 \par
+        \highlight19\cf18 \}\highlight5\cf4 \par
+        \highlight9\cf8\b else\highlight19\cf18\b0 \{\highlight5\cf4 \par
+            \highlight9\cf8\b header\highlight19\cf18\b0 (\highlight7\cf6 "Location: ?error"\highlight19\cf18 );\highlight5\cf4 \par
+        \highlight19\cf18 \}\highlight5\cf4 \par
+    \highlight19\cf18 \}\highlight5\cf4 \par
+    \par
+    \highlight9\cf8\b if\highlight19\cf18\b0 (\highlight9\cf8\b isset\highlight19\cf18\b0 (\highlight13\cf12 $_GET\highlight19\cf18 [\highlight7\cf6 "close_session"\highlight19\cf18 ]))\{\highlight5\cf4 \par
+        logout\highlight19\cf18 ();\highlight5\cf4 \par
+        \highlight9\cf8\b header\highlight19\cf18\b0 (\highlight7\cf6 "Location: ?start"\highlight19\cf18 );\highlight5\cf4 \par
+    \highlight19\cf18 \}\highlight5\cf4 \par
+\par
+    \highlight15\cf14 /*\par
+    if(isset($_GET["registro_usuario"]))\{\par
+        if(isset( $_POST["email"] )  && trim( $_POST["email"] )!=="" && isset( $_POST["user"] )  && trim( $_POST["user"] )!=="" && isset( $_POST["pass"] )  && trim( $_POST["pass"] )!==""   )\{\par
+            registrar($_POST["email"],$_POST["user"],$_POST["pass"]);\par
+        \}\par
+        else\{\par
+            alert("Por favor, ingresa todos los campos con la informaci&oacute;n solicitada");\par
+        \}\par
+    \}\par
+    */\highlight5\cf4 \par
+\highlight1\cf0 ?>}
