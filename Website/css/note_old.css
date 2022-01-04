@@ -1,0 +1,145 @@
+@font-face{
+	font-family:Mifuente;
+	src:url("../txt/Letters.ttf");
+}
+h1{
+	font-family:Mifuente;
+	width:45%;
+	background:-webkit-linear-gradient(top,#483D8B,lavender);
+	color:white;
+	border:3px violet;
+	text-align:center;
+	margin:30px auto;
+	padding:15px;
+	border-radius: 10px;
+}
+#instrucciones{
+	font-family:Mifuente;
+	width:45%;
+	background:-webkit-linear-gradient(top,#483D8B,lavender);
+	color:white;
+	border:3px violet;
+	text-align:center;
+	margin:30px auto;
+	padding:15px;
+	border-radius: 10px;
+}
+.bot{
+	color:orange;
+	font-family: Mifuente;
+	font-size: 35px;
+	background:blue;
+	border:3px orange;
+	border-radius:10px;
+	width:100px;
+	height:40px;
+	padding:8px;
+	margin:15px auto;
+	text-align:center;
+}
+.cuadro2{
+	float:center;
+	background:url("../img/handsbackpeq2.png") no-repeat;
+	border:3px violet;
+	border-radius:10px;
+	width:100%;
+	height:100%;
+	padding:8px;
+	margin:15px auto;
+	text-align:center;
+}
+#cuadro{
+	background:blueviolet;
+	border:3px violet;
+	border-radius:10px;
+	opacity:10;
+	width:250px;
+	padding:8px;
+	margin:15px auto;
+	margin-left:5%;
+	text-align:center;
+}
+#cuadro3{
+	background:blueviolet;
+	border:3px violet;
+	border-radius:10px;
+	opacity:10;
+	width:250px;
+	padding:8px;
+	margin:15px auto;
+	margin-left:30%;
+	margin-top:-22.5%;
+	text-align:center;
+}
+#cuadro4{
+	background:blueviolet;
+	border:3px violet;
+	border-radius:10px;
+	opacity:10;
+	width:250px;
+	padding:8px;
+	margin:15px auto;
+	margin-left:55%;
+	margin-top:-22.5%;
+	text-align:center;
+}
+#cuadro5{
+	background:blueviolet;
+	border:3px violet;
+	border-radius:10px;
+	opacity:10;
+	width:250px;
+	padding:8px;
+	margin:15px auto;
+	margin-left:80%;
+	margin-top:-22.5%;
+	text-align:center;
+}
+#cuadro6{
+	background:blueviolet;
+	border:3px violet;
+	border-radius:10px;
+	opacity:10;
+	width:250px;
+	padding:8px;
+	margin:15px auto;
+	margin-left:5%;
+	margin-top:3%;
+	text-align:center;
+}
+#cuadro7{
+	background:blueviolet;
+	border:3px violet;
+	border-radius:10px;
+	opacity:10;
+	width:250px;
+	padding:8px;
+	margin:15px auto;
+	margin-left:30%;
+	margin-top:-320px;
+	text-align:center;
+}
+#cuadro8{
+	background:blueviolet;
+	border:3px violet;
+	border-radius:10px;
+	opacity:10;
+	width:250px;
+	padding:8px;
+	margin:15px auto;
+	margin-left:55%;
+	margin-top:-320px;
+	text-align:center;
+}
+#cuadro9{
+	background:blueviolet;
+	border:3px violet;
+	border-radius:10px;
+	opacity:10;
+	width:250px;
+	padding:8px;
+	margin:15px auto;
+	margin-left:80%;
+	margin-top:-320px;
+	text-align:center;
+}

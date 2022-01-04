@@ -1,0 +1,100 @@
+body{
+	padding-top: 250px;
+	background:url("../img/backgroundEXPO.jpg");
+}
+@font-face{
+	font-family:Mifuente;
+	src:url("../txt/square.ttf");
+}
+.fondo
+{
+	background: #00FFFF;
+	opacity: 0.5;
+}
+.fondo1
+{
+	font-size: 20px;
+
+}
+.icon-bars
+{
+	float: center;
+}
+.cabecera{
+	width:100%;
+	background: url(../img/sample.jpeg);
+	text-align:left;
+	margin:15px auto;
+	padding:15px;
+	border:3px #FF4500;
+	border-radius:10px;
+	float:left;
+	color:#000;
+}
+.bot1
+{
+	padding: 5px;
+	border-radius: 5px;
+	background-color: greenyellow;
+	float: top;
+	margin: 20px auto;
+}
+#navega{
+	font-family: Mifuente ,cursive;
+	background-color:rgb(0, 50, 255);
+	width:100%;
+}
+#barralateral{
+	font-family: Mifuente ,cursive;
+	color:#FF6347;
+	background-color:#00BFFF;
+	border-radius: 35px 0px 35px 0px;
+	-moz-border-radius: 35px 0px 35px 0px;
+	-webkit-border-radius: 35px 0px 35px 0px;
+	float: left;
+	height: 900px;
+}
+#Tablita1{
+	font-family: Mifuente ,cursive;
+	color:#FF6347;
+	width:15%;
+	background:#87CEFA;
+	text-align:center;
+	margin:15px auto;
+	padding:1px;
+	border:3px #00BFFF;
+	border-radius:10px;
+	box-shadow:  1px 2px 2px;
+	color:#00FFFF;
+}
+
+#contenidoprincipal{
+	background-color: #099;
+	margin-left: 210px;
+	padding-left: 15px;
+	padding-top: 15px;
+	font: 13px Mifuente;
+}
+
+li{
+	background-color: #97E;
+	display: inline;
+}
+img:hover{
+	-webkit-transform: scale(1.2);
+}
+#pieprincipal{
+	font-family: Mifuente ,cursive;;color:#FF6347;
+	background-color:#191970;
+	text-align:center;
+	clear: both;
+	margin-top: 100px;
+}
+#endd
+{
+	color:darkslategray;
+}
+.bot
+{
+	font-size: 20px;
+}

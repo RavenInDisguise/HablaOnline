@@ -1,0 +1,258 @@
+@font-face{
+	font-family:Mifuente;
+	src:url("../txt/Letters.ttf");
+}
+h3{
+	font-family:Mifuente;
+	width:50%;
+	font-size:35px;
+	background:-webkit-linear-gradient(top,#483D8B,lavender);
+	color:white;
+	border:3px violet;
+	text-align:center;
+	margin:30px auto;
+	padding:15px;
+	border-radius: 10px;
+}
+#instrucciones{
+	font-family:Mifuente;
+	width:70%;
+	font-size:35px;
+	background:-webkit-linear-gradient(top,#483D8B,lavender);
+	color:white;
+	border:3px violet;
+	text-align:center;
+	margin:30px auto;
+	padding:15px;
+	border-radius: 10px;
+}
+#bot{
+	color:white;
+	font-size: 35px;
+	font-family: Mifuente;
+	background:mediumorchid;
+	border:3px violet;
+	border-radius:10px;
+	width:100px;
+	height:50px;
+	padding:8px;
+	margin:15px auto;
+	text-align:center;
+}
+.cuadro2{
+	background:url("../img/arbol.png");
+	border:3px violet;
+	border-radius:10px;
+	width:1280px;
+	height:853px;
+	padding:8px;
+	margin:15px auto;
+	text-align:center;
+}
+#cuadro{
+	color:white;
+	font-family: Mifuente;
+	font-size: 35px;
+	background:purple;
+	border:3px violet;
+	border-radius:10px;
+	width:250px;
+	padding:8px;
+	margin:15px auto;
+	margin-left:2%;
+	text-align:center;
+}
+#cuadro3{
+	color:white;
+	font-family: Mifuente;
+	font-size: 35px;
+	background:purple;
+	border:3px violet;
+	border-radius:10px;
+	width:250px;
+	padding:8px;
+	margin:15px auto;
+	margin-left:27.5%;
+	margin-top:-35%;
+	text-align:center;
+}
+#cuadro4{
+	color:white;
+	font-family: Mifuente;
+	font-size: 35px;
+	background:purple;
+	border:3px violet;
+	border-radius:10px;
+	width:250px;
+	padding:8px;
+	margin:15px auto;
+	margin-left:53.8%;
+	margin-top:-35%;
+	text-align:center;
+}
+#cuadro5{
+	color:white;
+	font-family: Mifuente;
+	font-size: 35px;
+	background:purple;
+	border:3px violet;
+	border-radius:10px;
+	width:250px;
+	padding:8px;
+	margin:15px auto;
+	margin-left:79.5%;
+	margin-top:-35%;
+	text-align:center;
+}
+#cuadro6{
+	color:white;
+	font-family: Mifuente;
+	font-size: 35px;
+	background:purple;
+	border:3px violet;
+	border-radius:10px;
+	width:250px;
+	padding:8px;
+	margin:15px auto;
+	margin-left:2%;
+	margin-top:1%;
+	text-align:center;
+}
+#cuadro7{
+	color:white;
+	font-family: Mifuente;
+	font-size: 35px;
+	background:purple;
+	border:3px violet;
+	border-radius:10px;
+	width:250px;
+	padding:8px;
+	margin:15px auto;
+	margin-left:27.5%;
+	margin-top:-31.3%;
+	text-align:center;
+}
+#cuadro8{
+	color:white;
+	font-family: Mifuente;
+	font-size: 35px;
+	background:purple;
+	border:3px violet;
+	border-radius:10px;
+	width:250px;
+	padding:8px;
+	margin:15px auto;
+	margin-left:53.8%;
+	margin-top:-31.3%;
+	text-align:center;
+}
+#cuadro9{
+	color:white;
+	font-family: Mifuente;
+	font-size: 35px;
+	background:purple;
+	border:3px violet;
+	border-radius:10px;
+	width:250px;
+	padding:8px;
+	margin:15px auto;
+	margin-left:79.5%;
+	margin-top:-31.3%;
+	text-align:center;
+}
+#n1{
+	color:black;
+	font-family: Mifuente;
+	font-size: 15px;
+	background:white;
+	border:3px violet;
+	border-radius:10px;
+	width:150px;
+	padding:8px;
+	margin:15px auto;
+	text-align:center;
+}
+#n2{
+	color:black;
+	font-family: Mifuente;
+	font-size: 15px;
+	background:white;
+	border:3px violet;
+	border-radius:10px;
+	width:150px;
+	padding:8px;
+	margin:15px auto;
+	text-align:center;
+}
+#n3{
+	color:black;
+	font-family: Mifuente;
+	font-size: 15px;
+	background:white;
+	border:3px violet;
+	border-radius:10px;
+	width:150px;
+	padding:8px;
+	margin:15px auto;
+	text-align:center;
+}
+#n4{
+	color:black;
+	font-family: Mifuente;
+	font-size: 15px;
+	background:white;
+	border:3px violet;
+	border-radius:10px;
+	width:150px;
+	padding:8px;
+	margin:15px auto;
+	text-align:center;
+}
+#n5{
+	color:black;
+	font-family: Mifuente;
+	font-size: 15px;
+	background:white;
+	border:3px violet;
+	border-radius:10px;
+	width:150px;
+	padding:8px;
+	margin:15px auto;
+	text-align:center;
+}
+#n6{
+	color:black;
+	font-family: Mifuente;
+	font-size: 15px;
+	background:white;
+	border:3px violet;
+	border-radius:10px;
+	width:150px;
+	padding:8px;
+	margin:15px auto;
+	text-align:center;
+}
+#n7{
+	color:black;
+	font-family: Mifuente;
+	font-size: 15px;
+	background:white;
+	border:3px violet;
+	border-radius:10px;
+	width:150px;
+	padding:8px;
+	margin:15px auto;
+	text-align:center;
+}
+#n8{
+	color:black;
+	font-family: Mifuente;
+	font-size: 15px;
+	background:white;
+	border:3px violet;
+	border-radius:10px;
+	width:150px;
+	padding:8px;
+	margin:15px auto;
+	text-align:center;
+}

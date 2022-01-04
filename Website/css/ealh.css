@@ -1,0 +1,37 @@
+@font-face{
+	font-family:Mifuente;
+	src:url("../txt/Letters.ttf");
+}
+h1{
+	font-family:Mifuente;
+	width:45%;
+	background:-webkit-linear-gradient(top,#483D8B,lavender);
+	color:white;
+	border:3px violet;
+	text-align:center;
+	margin:30px auto;
+	padding:15px;
+	border-radius: 10px;
+}
+.instrucciones2{
+	font-family:Mifuente;
+	width:100%;
+	background:-webkit-linear-gradient(top,#483D8B,lavender);
+	color:white;
+	border:3px violet;
+	text-align:center;
+	margin:30px auto;
+	padding:15px;
+	border-radius: 10px;
+}
+#instrucciones{
+	font-family:Mifuente;
+	width:80%;
+	background:-webkit-linear-gradient(top,#483D8B,lavender);
+	color:white;
+	border:3px violet;
+	text-align:center;
+	margin:30px auto;
+	padding:15px;
+	border-radius: 10px;
+}

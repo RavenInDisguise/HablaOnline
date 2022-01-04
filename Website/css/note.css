@@ -1,0 +1,140 @@
+@font-face{
+	font-family:Mifuente;
+	src:url("../txt/letters.ttf");
+}
+h1{
+	font-family:Mifuente;
+	width:25%;
+	background:-webkit-linear-gradient(top,#483D8B,lavender);
+	color:white;
+	border:3px violet;
+	text-align:center;
+	margin:30px auto;
+	padding:15px;
+	border-radius: 10px;
+}
+#instrucciones{
+	font-family:Mifuente;
+	width:45%;
+	background:-webkit-linear-gradient(top,#483D8B,lavender);
+	color:white;
+	border:3px violet;
+	text-align:center;
+	margin:30px auto;
+	padding:15px;
+	border-radius: 10px;
+}
+.bot{
+	color:blue;
+	font-family: Mifuente;
+	font-size: 35px;
+	background:LightSalmon;
+	border:3px orange;
+	border-radius:10px;
+	width:100px;
+	height:40px;
+	padding:8px;
+	margin:15px auto;
+	text-align:center;
+}
+.cuadro2{
+	float:center;
+	background:url("../img/handsbackpeq.png") no-repeat;
+	border:3px violet;
+	border-radius:10px;
+	width:1280px;
+	height:905px;
+	padding:8px;
+	margin:15px auto;
+	text-align:center;
+}
+#cuadro{
+	background:DarkTurquoise;
+	border:3px violet;
+	border-radius:10px;
+	opacity:10;
+	width:15%;
+	padding:8px;
+	margin:15px auto;
+	margin-left:5%;
+	text-align:center;
+}
+#cuadro3{
+	background:DarkTurquoise;
+	border:3px violet;
+	border-radius:10px;
+	opacity:10;
+	width:15%;
+	padding:8px;
+	margin:15px auto;
+	margin-left:30%;
+	margin-top:-30.5%;
+	text-align:center;
+}
+#cuadro4{
+	background:DarkTurquoise;
+	border:3px violet;
+	border-radius:10px;
+	opacity:10;
+	width:15%;
+	padding:8px;
+	margin-left:55%;
+	margin-top:-30.5%;
+	text-align:center;
+}
+#cuadro5{
+	background:DarkTurquoise;
+	border:3px violet;
+	border-radius:10px;
+	opacity:10;
+	width:15%;
+	padding:8px;
+	margin-left:80%;
+	margin-top:-29%;
+	text-align:center;
+}
+#cuadro6{
+	background:DarkTurquoise;
+	border:3px violet;
+	border-radius:10px;
+	opacity:10;
+	width:15%;
+	padding:8px;
+	margin-left:5%;
+	margin-top:6%;
+	text-align:center;
+}
+#cuadro7{
+	
+	background:DarkTurquoise;
+	border:3px violet;
+	border-radius:10px;
+	opacity:10;
+	width:15%;
+	padding:8px;
+	margin-left:30%;
+	margin-top:-29.7%;
+	text-align:center;
+}
+#cuadro8{
+	background:DarkTurquoise;
+	border:3px violet;
+	border-radius:10px;
+	opacity:10;
+	width:15%;
+	padding:8px;
+	margin-left:55%;
+	margin-top:-29.7%;
+	text-align:center;
+}
+#cuadro9{
+	background:DarkTurquoise;
+	border:3px violet;
+	border-radius:10px;
+	opacity:10;
+	width:15%;
+	padding:8px;
+	margin-left:80%;
+	margin-top:-29.7%;
+	text-align:center;
+}

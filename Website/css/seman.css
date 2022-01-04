@@ -1,0 +1,63 @@
+@font-face{
+    font-family:Mifuente;
+    src:url("../txt/letters.ttf");
+}
+
+div#caja{
+    margin:0px auto;
+    margin-left: 31%;
+    background-color:#4682B4;
+    border:#999 1px solid;
+    width:37%;
+    height:425px;
+    padding:24px;
+    
+}
+div#caja > div{
+    background: url(../img/img2/tile_bg.jpg) no-repeat;
+    border:white 1px solid;
+    width:71px;
+    height:71px;
+    float:left;
+    margin:10px;
+    padding:1px;
+    font-size:14px;
+    cursor:pointer;
+    line-height:71px;
+    text-align:center;
+    font-family: Mifuente;
+    color:negro;
+}
+.titulos{
+    font-family: Mifuente;
+    width:45%;
+    background:-webkit-linear-gradient(top,#4682B4,lavender);
+    color:white;
+    border:3px violet;
+    text-align:center;
+    margin:30px auto;
+    padding:15px;
+    border-radius:10px;
+}
+@media screen and (max-width:348px){
+    .titulos{
+        font-family:Mifuente;
+        width:57%;
+        background:-webkit-linear-gradient(top,#4682B4,lavender);
+        color:white;
+        border:3px violet;
+        text-align:center;
+        margin:30px auto;
+        padding:15px;
+        border-radius:10px;
+    }
+    div#caja{
+        margin:0px auto;
+        margin-left: 17%;
+        background-color:#4682B4;
+        border:#999 1px solid;
+        width:68%;
+        height:790px;
+        padding:24px;
+    }
+}

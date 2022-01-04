@@ -1,0 +1,148 @@
+body{
+	background:#E0FFFF;
+	padding-top:150px;
+}
+@font-face{
+	font-family:Mifuente;
+	src:url("../txt/square.ttf");
+}
+#cabecera1{
+	font-family: Mifuente ,cursive;
+	width:100%;
+	height:110px;
+	background: rgba(240, 255, 255, 0.5);
+	text-align:right;
+	padding:15px;
+	color:#FF6347;
+    left: 0;
+    top: 0;
+    position: fixed;
+}
+#cabecera{
+	width:100%;
+	height:148px;
+	background:url("../img/imagen5EXPO2.jpg");
+	padding:15px;
+	border:3px #FF4500;
+	float:left;
+	color:#ff2;
+	left: 0;
+    top: 0;
+    position: fixed;
+}
+#navega{
+	width:100%;
+	height:30px;
+	font-family: Mifuente ,cursive;
+	background-color:#191970;
+	text-align:center;
+}
+#barralateral{
+	margin-top:20px;
+	font-family: Mifuente ,cursive;color:#FF6347;
+	background-color:#191970;
+	border-radius: 35px 0px 35px 0px;
+	-moz-border-radius: 35px 0px 35px 0px;
+	-webkit-border-radius: 35px 0px 35px 0px;
+	float: left;
+	height: 250px;
+}
+#contenidoprincipal{
+	background-color: #099;
+	margin-left: 210px;
+	padding-left: 15px;
+	padding-top: 15px;
+	font: 13px Mifuente;
+}
+
+li{
+	background-color: #97E;
+	display: inline;
+}
+img:hover{
+	-webkit-transform: scale(1.2);
+}
+#pieprincipal{
+	width:100%;
+	font-family: Mifuente ,cursive;;color:#FF6347;
+	background-color:#191970;
+	text-align:center;
+	clear: both;
+	margin-top: 100px;
+	position:fixed;
+	bottom: 0;
+}
+.barralateral{
+    margin-top:20px;
+	font-family: Mifuente ,cursive;color:#FF6347;
+	background-color:#191970;
+	border-radius: 35px 0px 35px 0px;
+	-moz-border-radius: 35px 0px 35px 0px;
+	-webkit-border-radius: 35px 0px 35px 0px;
+	float: left;
+	height: 300px;
+	width:150px;
+}
+.bot1
+{
+	padding: 5px;
+	border-radius: 5px;
+	background-color: greenyellow;
+	float: right;
+	margin: 20px auto;
+}
+
+.menuprin, .submenu {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+
+/* make ALL links (main and submenu) have padding and background color */
+.menuprin a {
+  display: block;
+  background-color:#191970;
+  text-decoration: none;
+  padding: 10px;
+  font-family: Mifuente ,cursive;color:#FF6347;
+ 
+}
+
+/* add hover behaviour */
+.menuprin a:hover {
+    background-color:#191970;
+}
+
+
+/* when hovering over a .mainmenu item,
+  display the submenu inside it.
+  we're changing the submenu's max-height from 0 to 200px;
+*/
+
+.menuprin li:hover .submenu {
+  display: block;
+  max-height: 200px;
+}
+
+/*
+  we now overwrite the background-color for .submenu links only.
+  CSS reads down the page, so code at the bottom will overwrite the code at the top.
+*/
+
+.submenu a {
+  background-color:#191970;
+}
+
+/* hover behaviour for links inside .submenu */
+.submenu a:hover {
+ background-color:#191970;
+}
+
+/* this is the initial state of all submenus.
+  we set it to max-height: 0, and hide the overflowed content.
+*/
+.submenu {
+  overflow: hidden;
+  max-height: 0;
+  -webkit-transition: all 0.5s ease-out;
+}

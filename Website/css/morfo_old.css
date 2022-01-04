@@ -1,0 +1,109 @@
+@font-face{
+	font-family:Mifuente;
+	src:url("letters.ttf");
+}
+#espacio{
+	margin-left:23%;
+	margin-top:0;
+	background-color:#FFA500;
+	width:55%;
+	height:485px;
+}
+.imagenes{
+	height:150px;
+	width:49%;
+}
+.sujeto{
+	margin-top:5%;
+	margin-left:42%;
+}
+.sujeto_p{
+	margin-top:5%;
+	margin-left:40%;
+}
+#sujeto1{
+	margin-top:5%;
+	margin-left:32%;
+}
+#sujeto_j{
+	margin-top:5%;
+	margin-left:34%;
+}
+.oracion{
+	margin-left:22%;
+	margin-top:5%;
+	background-color:#FFA500;
+}
+.oracion1{
+	margin-left:30%;
+	margin-top:5%;
+	background-color:#FFA500;
+}
+.parrafo{
+	font-size:45px;
+	font-family:Mifuente;
+}
+.titulos{
+	font-family:Mifuente;
+	width:45%;
+	background:-webkit-linear-gradient(top,#4682B4,lavender);
+	color:white;
+	border:3px violet;
+	text-align:center;
+	margin:30px auto;
+	padding:15px;
+	border-radius:10px;
+}
+@media screen and (max-width:348px){
+	#espacio{
+		margin-left:10%;
+		margin-top:0;
+		background-color:#FFA500;
+		width:80%;
+		height:330px;
+	}
+	.imagenes{
+		height:70px;
+		width:48%;
+	}
+	.sujeto{
+		margin-top:5%;
+		margin-left:30%;
+	}
+	.sujeto_p{
+		margin-top:5%;
+		margin-left:24%;
+	}
+	#sujeto1{
+		margin-top:5%;
+		margin-left:10%;
+	}
+	#sujeto_j{
+		margin-left:13%;
+	}
+	.oracion{
+		margin-left:12%;
+		margin-top:5%;
+		background-color:#FFA500;
+	}
+	.oracion1{
+		margin-left:30%;
+		margin-top:5%;
+		background-color:#FFA500;
+	}
+	.parrafo{
+		font-size:26px;
+		font-family:Mifuente;
+	}
+	.titulos{
+		font-family:Mifuente;
+		width:58%;
+		background:-webkit-linear-gradient(top,#4682B4,lavender);
+		color:white;
+		border:3px violet;
+		text-align:center;
+		margin:30px auto;
+		padding:15px;
+		border-radius:10px;
+    }
+}

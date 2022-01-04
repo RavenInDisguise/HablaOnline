@@ -1,0 +1,70 @@
+.navbar
+{
+    background-color:#0f5382;
+    border-color: #0f5382;
+}
+.navbar-inverse .navbar-nav>li>a{
+    color:#dcdbdb;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{
+    background-color: #f1940e;
+}
+@media only screen and (max-width: 768px) {
+    #slider{
+        display: none;
+    }
+}
+@media only screen and (min-width: 769px) {
+    #slider{
+        display: block;
+    }
+}
+
+@media (max-width: 767px)
+bootstrap.min.css:5.navbar-inverse .navbar-nav .open .dropdown-menu>li>a
+{
+    color: #FFF;
+}
+
+.social-icons li{
+    border-right: 2px solid #d4d2d2;
+}
+.social-icons li:last-child{
+    border-right: none;
+}
+#logoEXPO
+{
+    margin: 0;
+    padding-top: 0;
+}
+
+#logoEXPO img{
+    padding-top: 3px;
+}
+#littleScr
+{
+    border-color: #FFF;
+}
+#littleScr:hover
+{
+    background-color: #0f5382;
+}
+
+
+@media only screen and (max-width: 992px) {
+    .hideOn992{
+        display: none;
+    }
+
+    .CEDESlogo{
+        text-align: center;
+        padding-top: 10px;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    .CEDESlogo{
+        text-align: right;
+    }
+}
+
