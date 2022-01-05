@@ -2,7 +2,7 @@
 # HablaOnline 🗣️
 
 This project consists of the development of a website for children who require speech therapy sessions, this to treat a problem they have (for various reasons) and that has been diagnosed through tests carried out by specialists . Having knowledge of these two important factors and the type of disability you have, the treatment is developed.
-HablaOnline was developed in 2017 for the EXPOTEC Science and Technology Fair of the Don Bosco Technical College, in conjunction with:
+HablaOnline was developed in 2017 for the EXPOTEC Science and Technology Fair of the Don Bosco Technical Highschool, in conjunction with:
 * Adrián Ramírez Mattey. [@Ajrm243](https://github.com/Ajrm243)
 * Marianna Hidalgo Sandoval. [@mhidalgos0708](https://github.com/mhidalgos0708)
 
