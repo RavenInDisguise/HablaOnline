@@ -3,8 +3,8 @@
 
 This project consists of the development of a website for children who require speech therapy sessions, this to treat a problem they have (for various reasons) and that has been diagnosed through tests carried out by specialists . Having knowledge of these two important factors and the type of disability you have, the treatment is developed.
 HablaOnline was developed in 2017 for the EXPOTEC Science and Technology Fair of the Don Bosco Technical College, in conjunction with:
-* Adrián Ramírez Mattey. 
-* Marianna Hidalgo Sandoval.
+* Adrián Ramírez Mattey. [@Ajrm243](https://github.com/Ajrm243)
+* Marianna Hidalgo Sandoval. [@mhidalgos0708](https://github.com/mhidalgos0708)
 
 The website includes a set of dynamics aimed at helping children (in a different and fun way) by stimulating in the areas of:
 * Pragmatic:
@@ -47,8 +47,8 @@ For the realization of this project, the guidance of: the speech therapist from 
 
 Este proyecto consiste en la elaboración de un sitio web destinado a los niños que requieren de sesiones de terapia de lenguaje, esto para tratar un problema que poseen (por diversas causas) y que ha sido diagnosticado por medio de pruebas que llevan a cabo los especialistas. Teniendo conocimiento de estos dos factores importantes y el tipo de discapacidad que posee, se elabora el tratamiento. 
 HablaOnline fue desarrollado en 2017 para la Feria de Ciencia y Tecnología EXPOTEC del Colegio Técnico Don Bosco, en conjunto con:
-* Adrián Ramírez Mattey.
-* Marianna Hidalgo Sandoval. 
+* Adrián Ramírez Mattey. [@Ajrm243](https://github.com/Ajrm243)
+* Marianna Hidalgo Sandoval. [@mhidalgos0708](https://github.com/mhidalgos0708)
 
 El sitio web incluye un conjunto de dinámicas destinadas a ayudar a los niños (de una manera diferente y divertida) estimulando en las áreas de:
 * Pragmática:
